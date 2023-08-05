@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter&family=Lora:ital,wght@0,400;0,500;1,400&family=Nabla&family=Roboto:wght@400;500;700&family=Teko&display=swap');
+body{
+  height: 1000px;
+  padding-top: 160px;
+}
+.about-us{
+  font-size: 50px;
+  padding-left: 42vw;
+  font-weight: bold;
+  font-family: Lora;
+  background-color: rgba(33, 158, 188,0.8);
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border-bottom: 5px solid black;
+}
+.about-us-body{
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 10px;
+  background-color: rgba(2, 48, 71,0.8);
+  height: 600px;
+  
+}
+.about-us-body-content{
+  font-size: 30px;
+  font-family: Roboto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 60px;
+  width:70vwpx ;
+  color: white;
+  text-align: center;
+}
+.copyright{
+  border-top: 3px dotted black;
+  padding-top: 12px;
+  padding-left: 50px;
+  margin-top: 50px;
+  font-size: 15px;
+  font-family: Roboto;
+  color: rgb(131, 122, 122);
+  
+}

@@ -1,0 +1,69 @@
+body{
+  height: 1000px;
+  padding-top: 160px;
+}
+.contact-icon{
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.icon-container{
+  padding-left: 28vw;
+  
+}
+.contact-header-social{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-family: Lora ;
+  padding-left: 1vw;
+  font-weight: bold;
+  color: black;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 30px;
+}
+.contact-header-social1{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-family: Lora ;
+  padding-left: 14vw;
+  font-weight: bold;
+  color: black;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 30px;
+}
+.mail-icon{
+  display: inline-block;
+  cursor: pointer;
+}
+.mail-text{
+  display: inline-block;
+  font-family: Lora;
+  font-size: 22px;
+  font-weight: bold;
+}
+.mail-container{
+  padding-left: 24vw;
+}
+.outside-box{
+  
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 35px;
+  border: 10px solid black;
+}
+.copyright{
+  border-top: 3px dotted black;
+  padding-top: 12px;
+  padding-left: 50px;
+  margin-top: 50px;
+  font-size: 15px;
+  font-family: Roboto;
+  color: rgb(131, 122, 122);
+  
+}

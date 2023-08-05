@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter&family=Lora:ital,wght@0,400;0,500;1,400&family=Nabla&family=Roboto:wght@400;500;700&family=Teko&display=swap');
+body{
+  height: 2800px;
+  padding-top: 160px;
+}
+.largetext{
+  font-size: 70px;
+  font-family: Lora;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  
+}
+.gen_text{
+  margin-top: 100px;
+  font-size: 30px;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(208, 204, 204);
+}
+.grid-offered-material{
+  width: 500px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.we{
+  width: 80vw;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  margin-left: 10vw;
+  margin-top: 15px;
+}
+.ourservices{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 3px solid black;
+  
+}
+.roadmap1{
+  width: 80vw;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 60px;
+
+}
+.thinking-image{
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 30px;
+}
+.card-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
+  margin-left: 55px;
+}
+.btn-btn-primary{
+  background-color: rgb(52, 52, 52);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+
+}
+.end{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.btn-btn-donate{
+  width: 200px;
+  margin-bottom: 25px;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: 42vw;
+
+}
+.btn-btn-donate:hover{
+  opacity: 0.8;
+}
+.btn-btn-donate:active{
+  opacity: 0.4;
+}
+.end_line{
+  border-bottom: 3px dotted black;
+}
+.copyright{
+  
+  padding-top: 12px;
+  padding-left: 50px;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: Roboto;
+  color: rgb(131, 122, 122);
+  
+}

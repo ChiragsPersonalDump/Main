@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter&family=Lora:ital,wght@0,400;0,500;1,400&family=Nabla&family=Roboto:wght@400;500;700&family=Teko&display=swap');
+.header{
+  display: flex;
+  flex-direction: horizontal;
+  height: 80px;
+  background-color: rgb(0, 119, 182);
+  border-bottom: 7px solid white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+  
+  
+}
+.header_left{
+  flex: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  font-size: 50px;
+  color: white;
+  font-family: Lora;
+  font-weight: 500;
+  
+
+}
+.searchicon{
+  background-color: white;
+  margin-left: none;
+  border-radius:62px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.searchicon:hover{
+  opacity: 0.9;
+}
+.searchicon:active{
+  opacity: 0.8;
+}
+.toomuchcode{
+  cursor: pointer;
+}
+.header_right{
+  flex: 1;
+  display: flex;
+  flex-direction: horizontal;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  color: white;
+  font-family: Bitter;
+  min-width: 600px;
+}
+
+
+.searchbar{
+  border: none;
+  border-radius: 10px;
+
+  
+}
+.searchbar::placeholder{
+  padding-left: 5px;
+}
+.header2{
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  height: 60px;
+  padding-left: 34%;
+  padding-right:30%;
+  background-color: rgb(2, 48, 71);;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  left: 0;
+  z-index: 100000;
+  
+
+}
+.btnofheader{
+  margin-right: 30px;
+  font-size: 20px;
+  background-color: rgba(187, 181, 181, 0.3);
+  border: none;
+  border-radius: 10px;
+  font-family: Bitter;
+  color: white;
+  transition: 0.15s;
+}
+.btnofheader:hover{
+  opacity: 0.7;
+}
+.btnofheader:active{
+  opacity: 0.3;
+}
+.about{
+  cursor: pointer;
+  transition: 0.15s;
+}
+.about:hover{
+  opacity: 0.8;
+}
+.about:active{
+  opacity: 0.4;
+}
